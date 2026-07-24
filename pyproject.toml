@@ -1,6 +1,6 @@
 [project]
 name = "spys"
-version = "1.2.0"
+version = "1.2.1"
 description = "Python API for fetching, parsing, and filtering free HTTP, HTTPS, and SOCKS5 proxies"
 authors = [
     { name = "Nikita Denissov", email = "n.denissov@proton.me" }

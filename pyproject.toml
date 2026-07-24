@@ -1,0 +1,43 @@
+[project]
+name = "spys"
+version = "1.2.0"
+description = "Python API for fetching, parsing, and filtering free HTTP, HTTPS, and SOCKS5 proxies"
+authors = [
+    { name = "Nikita Denissov", email = "n.denissov@proton.me" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+httpx = "^0.28.1"
+beautifulsoup4 = "^4.15.0"
+lxml = {markers = "python_version < '3.15'", version = "^6.1.1"}
+
+[project.urls]
+Homepage = "https://github.com/ndenissov/spys"
+Repository = "https://github.com/ndenissov/spys"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "spys" }]

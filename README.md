@@ -4,6 +4,7 @@
 [![Downloads](https://static.pepy.tech/badge/spys)](https://pepy.tech/project/spys)
 [![Python versions](https://img.shields.io/pypi/pyversions/spys.svg)](https://pypi.org/project/spys/)
 [![License](https://img.shields.io/pypi/l/spys.svg)](https://github.com/ndenissov/spys/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ndenissov/spys)](https://github.com/ndenissov/spys/stargazers)
 
 **spys** is a typed Python library for fetching, parsing, and filtering lists of free public proxies. It provides an
 object-oriented and easy-to-use interface to effortlessly obtain available HTTP, HTTPS, and SOCKS5 proxies for web
